@@ -1,76 +1,97 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>邏輯思維訓練應用</title>
+    <title>ChillWe - 組團理念123123</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
         }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        main {
-            padding: 20px;
-        }
-        .contact {
-            margin-top: 40px;
-            padding: 20px;
-            background-color: #e2e2e2;
-            border-radius: 5px;
-        }
-        .contact h2 {
-            text-align: center;
-        }
-        .contact p {
-            text-align: center;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            margin-top: 40px;
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1516321310764-8d9c1c08a7a0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
         }
     </style>
 </head>
-<body>
-    <header>
-        <h1>邏輯思維訓練應用</h1>
+<body class="text-gray-800">
+    <!-- Header -->
+    <header class="text-white py-4" style="background-color: #9278D9;">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">ChillWe</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#concept" class="hover:underline">理念</a></li>
+                    <li><a href="#benefits" class="hover:underline">優勢</a></li>
+                    <li><a href="#contact" class="hover:underline">聯繫我們</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <main>
-        <section>
-            <h2>激發潛力，提升邏輯思維能力！</h2>
-            <p>想在競爭激烈的香港政府招聘市場中脫穎而出嗎？我們的應用程式專為幫助你提升邏輯思維能力而設計，提供多種類別的練習題和難題，幫助你為政府考試、面試、【公務員考試（CRE）】以及【中學公開試（HKDSE）】中的各種挑戰做好準備。</p>
 
-            <h3>主要特色：</h3>
-            <ul>
-                <li><strong>全面訓練：</strong>解決各類與香港政府職位要求相符的邏輯思維問題，並特別針對【公務員考試（CRE）】和【中學公開試（HKDSE）】的邏輯推理部分進行訓練。</li>
-                <li><strong>提升解決問題能力：</strong>通過設計巧妙的題目，幫助你加強批判性思維、分析能力和決策能力，應對CRE和HKDSE考試中的難題。</li>
-                <li><strong>進度跟蹤：</strong>通過詳細的報告和分析，了解自己在各方面的進步，讓你準備更加充分。</li>
-                <li><strong>完美的考試備考工具：</strong>專為幫助你在香港政府考試中脫穎而出，尤其針對CRE和HKDSE考試的邏輯推理和綜合能力測試進行強化訓練，助力面試和招聘過程。</li>
+    <!-- Hero Section -->
+    <section class="hero py-20 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4 text-black">ChillWe - 組團理念</h2>
+            <p class="text-lg md:text-xl mb-6 text-black">團結力量大，共同創造無限可能</p>
+            <a href="#contact" class="text-white px-6 py-3 rounded-lg hover:bg-[#7f66c2]" style="background-color: #9278D9;">加入我們</a>
+        </div>
+    </section>
+
+    <!-- Concept Section -->
+    <section id="concept" class="py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">我們的組團理念</h2>
+            <p class="text-lg text-center max-w-3xl mx-auto mb-6">
+                ChillWe 相信，成功的團隊源於共同的目標與信任。我們的組團理念強調協作、包容與創新，通過多元化的視角與集體智慧，激發每位成員的潛能，實現超越個體的成就。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">協作</h3>
+                    <p>每位成員的貢獻都是成功關鍵，通過有效溝通實現無縫合作。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">包容</h3>
+                    <p>尊重多元背景，打造開放的環境，讓每個聲音都被聽見。</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">創新</h3>
+                    <p>鼓勵創意思維，挑戰現狀，推動突破性成果。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">組團的優勢</h2>
+            <ul class="list-disc max-w-2xl mx-auto text-lg space-y-4">
+                <li><strong>提升效率</strong>：團隊合作加速問題解決與任務完成。</li>
+                <li><strong>增強創造力</strong>：多元視角碰撞，激發獨特創意。</li>
+                <li><strong>建立信任</strong>：共享目標與責任，促進成員間的深厚聯繫。</li>
+                <li><strong>持續成長</strong>：相互學習，個人與團隊共同進步。</li>
             </ul>
-            <p>立即下載，開始提升自己的邏輯思維能力，信心滿滿迎接政府職位的申請挑戰，無論是準備【公務員考試（CRE）】還是【中學公開試（HKDSE）】，這款應用將成為你最得力的助手！</p>
-        </section>
+        </div>
+    </section>
 
-        <section class="contact">
-            <h2>聯絡我們</h2>
-            <p>如有任何查詢或意見，請隨時聯絡我們：</p>
-            <p>Email: <a href="mailto:k7803cxq@gmail.com">k7803cxq@gmail.com</a></p>
-        </section>
-    </main>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">聯繫我們</h2>
+            <p class="text-lg mb-6">想了解更多關於組團理念，或加入我們的團隊？請聯繫我們！</p>
+            <a href="mailto:contact@chillwe.com" class="text-white px-6 py-3 rounded-lg hover:bg-[#7f66c2]" style="background-color: #9278D9;">發送郵件</a>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2024 邏輯思維訓練應用. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 ChillWe. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
